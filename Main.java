@@ -15,6 +15,7 @@ public class Main {
 
         MenuView menuView = new MenuView(gameController, scoreController);
         MenuController menuController = new MenuController(menuView);
+
         menuController.showMenu();
 
 
